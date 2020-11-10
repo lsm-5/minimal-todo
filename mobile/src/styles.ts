@@ -6,7 +6,7 @@ export const Container = styled.View`
 `;
 export const Header = styled.View`
   padding: 38px 0 0;
-  max-height: 180px;
+  max-height: 220px;
   flex: 1;
 `;
 export const Top = styled.View`
@@ -38,4 +38,15 @@ export const Name = styled.Text`
   margin: 50px 10px 0px;
   padding-left: 20px;
   text-shadow: 1px -1px 5px #000;
+`;
+export const TextList = styled.Text`
+  font-weight: bold;
+  margin: 20px 30px 0;
+  color: white;
+  font-size: 16px;
+`;
+
+export const CustomButton = styled.TouchableOpacity`
+  width: 30px;
+  height: 30px;
 `;
